@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mensagens de validacao" time="116" tests="2" failures="2" errors="0">
+   <testsuite name="Mensagens de validacao" tests="2" failures="2" errors="0" time="116" timestamp="2018-01-25 09:30:02" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Mensagens de validacao">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_093001"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_093001\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_093001\\1516883460380.png, C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_093001\\1516883518574.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="5fd3c585-6d19-41e9-97e3-4a4ab543805c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MSG CPF Invalido" classname="Test Cases/MSG CPF Invalido" status="PASSED">
+         <system-out><![CDATA[2018-01-25 09:30:02 - [TEST_CASE][PASSED] - Test Cases/MSG CPF Invalido: Test Cases/MSG CPF Invalido
+
+2018-01-25 09:30:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 09:30:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 09:30:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:30:13 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:30:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 09:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 09:30:14 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-25 09:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-25 09:30:14 - [TEST_STEP][PASSED] - setText: Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-25 09:30:14 - [MESSAGE][PASSED] - Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-25 09:30:14 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-25 09:30:15 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-25 09:30:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-25 09:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-25 09:30:15 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-25 09:30:15 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-25 09:30:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-25 09:30:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MSG CPF nao cadastrado" classname="Test Cases/MSG CPF nao cadastrado" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' located by 'By.xpath: //p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]' not found)"/>
+         <system-out><![CDATA[2018-01-25 09:30:15 - [TEST_CASE][FAILED] - Test Cases/MSG CPF nao cadastrado: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' located by 'By.xpath: //p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]' not found)
+
+2018-01-25 09:30:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 09:30:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 09:30:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:30:27 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:30:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-25 09:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-25 09:30:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-25 09:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-25 09:30:28 - [TEST_STEP][PASSED] - setText: Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-25 09:30:28 - [MESSAGE][PASSED] - Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-25 09:30:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-25 09:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-25 09:30:29 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-25 09:30:29 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-25 09:30:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-25 09:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-25 09:30:29 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' located by 'By.xpath: //p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]' not found)
+
+2018-01-25 09:31:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' located by 'By.xpath: //p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_093001\\1516883460380.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 09:30:15 - [TEST_CASE][FAILED] - Test Cases/MSG CPF nao cadastrado: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' located by 'By.xpath: //p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MSG Senha Errada" classname="Test Cases/MSG Senha Errada" status="PASSED">
+         <system-out><![CDATA[2018-01-25 09:31:00 - [TEST_CASE][PASSED] - Test Cases/MSG Senha Errada: Test Cases/MSG Senha Errada
+
+2018-01-25 09:31:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 09:31:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-25 09:31:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 09:31:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:31:10 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:31:10 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-01-25 09:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-01-25 09:31:10 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-01-25 09:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-01-25 09:31:12 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-01-25 09:31:12 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-01-25 09:31:12 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-01-25 09:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-01-25 09:31:12 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-01-25 09:31:13 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-01-25 09:31:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-01-25 09:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-01-25 09:31:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is clicked on
+
+2018-01-25 09:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is clicked on
+
+2018-01-25 09:31:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-25 09:31:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MSG Cadastrar CPF" classname="Test Cases/MSG Cadastrar CPF" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)"/>
+         <system-out><![CDATA[2018-01-25 09:31:14 - [TEST_CASE][FAILED] - Test Cases/MSG Cadastrar CPF: Test Cases/MSG Cadastrar CPF FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)
+
+2018-01-25 09:31:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 09:31:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 09:31:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:31:25 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 09:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 09:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 09:31:26 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (3)' is double clicked on
+
+2018-01-25 09:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (3)' is double clicked on
+
+2018-01-25 09:31:26 - [TEST_STEP][PASSED] - setText: Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-25 09:31:27 - [MESSAGE][PASSED] - Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-25 09:31:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-25 09:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-25 09:31:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)
+
+2018-01-25 09:31:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_093001\\1516883518574.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 09:31:14 - [TEST_CASE][FAILED] - Test Cases/MSG Cadastrar CPF: Test Cases/MSG Cadastrar CPF FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-25 09:30:02 - [TEST_SUITE][FAILED] - Mensagens de validacao: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' located by 'By.xpath: //p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-25 09:30:02 - [TEST_SUITE][FAILED] - Mensagens de validacao: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' located by 'By.xpath: //p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

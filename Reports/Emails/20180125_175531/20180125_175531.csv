@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Emails,Chrome 63.0.3239.132,,2018-01-25 17:57:25,2018-01-25 17:57:37,"11,766s",FAILED
+,,,,,,
+Test Cases/RecuperacaoSenha,Chrome 63.0.3239.132,,2018-01-25 17:57:25,2018-01-25 17:57:36,"10,824s",FAILED
+openBrowser,Chrome 63.0.3239.132,,2018-01-25 17:57:26,2018-01-25 17:57:29,"2,797s",PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-01-25 17:57:29,2018-01-25 17:57:34,"5,801s",PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 17:57:34,2018-01-25 17:57:36,"1,404s",PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 17:57:36,2018-01-25 17:57:36,"0,078s",PASSED
+setText,Chrome 63.0.3239.132,,2018-01-25 17:57:36,2018-01-25 17:57:36,"0,380s",FAILED

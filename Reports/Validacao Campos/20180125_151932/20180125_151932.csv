@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validacao Campos,Firefox 58.0,,2018-01-25 15:19:34,2018-01-25 15:20:47,"1m - 13,087s",FAILED
+,,,,,,
+Test Cases/Verificar Titular Cartao,Firefox 58.0,,2018-01-25 15:19:34,2018-01-25 15:20:22,"47,879s",FAILED
+openBrowser,Firefox 58.0,,2018-01-25 15:19:35,2018-01-25 15:19:40,"5,400s",PASSED
+navigateToUrl,Firefox 58.0,,2018-01-25 15:19:40,2018-01-25 15:19:45,"5,355s",PASSED
+click,Firefox 58.0,,2018-01-25 15:19:45,2018-01-25 15:19:47,"1,406s",PASSED
+setText,Firefox 58.0,,2018-01-25 15:19:47,2018-01-25 15:19:47,"0,112s",PASSED
+setText,Firefox 58.0,,2018-01-25 15:19:47,2018-01-25 15:19:47,"0,076s",PASSED
+click,Firefox 58.0,,2018-01-25 15:19:47,2018-01-25 15:19:51,"4,263s",PASSED
+doubleClick,Firefox 58.0,,2018-01-25 15:19:51,2018-01-25 15:20:22,"30,816s",FAILED
+,,,,,,
+Test Cases/Verificar Email Rodape,Firefox 58.0,,2018-01-25 15:20:22,2018-01-25 15:20:47,"24,871s",PASSED
+openBrowser,Firefox 58.0,,2018-01-25 15:20:22,2018-01-25 15:20:41,"18,772s",PASSED
+navigateToUrl,Firefox 58.0,,2018-01-25 15:20:41,2018-01-25 15:20:47,"5,359s",PASSED
+check,Firefox 58.0,,2018-01-25 15:20:47,2018-01-25 15:20:47,"0,308s",PASSED
+closeBrowser,Firefox 58.0,,2018-01-25 15:20:47,2018-01-25 15:20:47,"0,234s",PASSED

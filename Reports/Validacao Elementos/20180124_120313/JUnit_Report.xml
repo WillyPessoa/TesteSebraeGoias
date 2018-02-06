@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validacao Elementos" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="Validacao Elementos" tests="1" failures="0" errors="0" time="10" timestamp="2018-01-24 12:03:14" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Validacao Elementos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Elementos\\20180124_120313"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Elementos\\20180124_120313\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="0cb60042-5992-4e45-9d0c-1df1d26a8c2f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verificar Email Rodape" classname="Test Cases/Verificar Email Rodape" status="PASSED">
+         <system-out><![CDATA[2018-01-24 12:03:14 - [TEST_CASE][PASSED] - Test Cases/Verificar Email Rodape: Test Cases/Verificar Email Rodape
+
+2018-01-24 12:03:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-24 12:03:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-24 12:03:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja-teste/loja/' successfully
+
+2018-01-24 12:03:24 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja-teste/loja/' successfully
+
+2018-01-24 12:03:24 - [TEST_STEP][PASSED] - check: Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-24 12:03:24 - [MESSAGE][PASSED] - Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-24 12:03:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-24 12:03:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-24 12:03:14 - [TEST_SUITE][PASSED] - Validacao Elementos: Test Cases/Verificar Email Rodape]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

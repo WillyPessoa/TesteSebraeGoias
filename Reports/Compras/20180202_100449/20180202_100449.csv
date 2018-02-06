@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Compras,Firefox 58.0,,2018-02-02 10:04:51,2018-02-02 10:06:57,"2m - 5,973s",FAILED
+,,,,,,
+Test Cases/COMPRAS/Adicionar Carrinho,Firefox 58.0,,2018-02-02 10:04:51,2018-02-02 10:05:55,"1m - 3,432s",FAILED
+openBrowser,Firefox 58.0,,2018-02-02 10:04:52,2018-02-02 10:05:00,"8,307s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-02 10:05:00,2018-02-02 10:05:07,"7,310s",PASSED
+click,Firefox 58.0,,2018-02-02 10:05:07,2018-02-02 10:05:11,"3,613s",PASSED
+setText,Firefox 58.0,,2018-02-02 10:05:11,2018-02-02 10:05:15,"4,140s",PASSED
+setText,Firefox 58.0,,2018-02-02 10:05:15,2018-02-02 10:05:19,"4,091s",PASSED
+click,Firefox 58.0,,2018-02-02 10:05:19,2018-02-02 10:05:23,"4,244s",PASSED
+click,Firefox 58.0,,2018-02-02 10:05:23,2018-02-02 10:05:55,"31,373s",FAILED
+,,,,,,
+Test Cases/COMPRAS/Minhas inscricoes - Concluida,Firefox 58.0,,2018-02-02 10:05:55,2018-02-02 10:05:56,"1,264s",FAILED
+openBrowser,Firefox 58.0,,2018-02-02 10:05:55,2018-02-02 10:05:56,"1,063s",FAILED
+,,,,,,
+Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado,Firefox 58.0,,2018-02-02 10:05:56,2018-02-02 10:06:57,"1m - 0,682s",PASSED
+openBrowser,Firefox 58.0,,2018-02-02 10:05:56,2018-02-02 10:06:04,"7,454s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-02 10:06:04,2018-02-02 10:06:10,"6,151s",PASSED
+click,Firefox 58.0,,2018-02-02 10:06:10,2018-02-02 10:06:14,"3,954s",PASSED
+setText,Firefox 58.0,,2018-02-02 10:06:14,2018-02-02 10:06:18,"4,106s",PASSED
+setText,Firefox 58.0,,2018-02-02 10:06:18,2018-02-02 10:06:22,"4,097s",PASSED
+click,Firefox 58.0,,2018-02-02 10:06:22,2018-02-02 10:06:26,"4,079s",PASSED
+click,Firefox 58.0,,2018-02-02 10:06:26,2018-02-02 10:06:28,"2,266s",PASSED
+click,Firefox 58.0,,2018-02-02 10:06:28,2018-02-02 10:06:32,"3,738s",PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-02 10:06:32,2018-02-02 10:06:50,"17,510s",PASSED
+click,Firefox 58.0,,2018-02-02 10:06:50,2018-02-02 10:06:52,"2,664s",PASSED
+check,Firefox 58.0,,2018-02-02 10:06:52,2018-02-02 10:06:56,"3,268s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-02 10:06:56,2018-02-02 10:06:57,"1,223s",PASSED

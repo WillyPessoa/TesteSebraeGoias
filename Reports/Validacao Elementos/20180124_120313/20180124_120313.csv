@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validacao Elementos,Firefox 58.0,,2018-01-24 12:03:14,2018-01-24 12:03:25,"10,635s",PASSED
+,,,,,,
+Test Cases/Verificar Email Rodape,Firefox 58.0,,2018-01-24 12:03:14,2018-01-24 12:03:25,"10,348s",PASSED
+openBrowser,Firefox 58.0,,2018-01-24 12:03:15,2018-01-24 12:03:19,"4,784s",PASSED
+navigateToUrl,Firefox 58.0,,2018-01-24 12:03:19,2018-01-24 12:03:24,"4,623s",PASSED
+check,Firefox 58.0,,2018-01-24 12:03:24,2018-01-24 12:03:24,"0,326s",PASSED
+closeBrowser,Firefox 58.0,,2018-01-24 12:03:24,2018-01-24 12:03:25,"0,237s",PASSED

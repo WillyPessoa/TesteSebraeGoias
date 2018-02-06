@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validar Campo e MSG suite" time="257" tests="7" failures="1" errors="0">
+   <testsuite name="Validar Campo e MSG suite" tests="7" failures="1" errors="0" time="257" timestamp="2018-02-05 14:12:13" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Validar Campo e MSG suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180205_140722"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180205_140722\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180205_140722\\1517850968313.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.119"/>
+         <property name="sessionId" value="5c72b3d8-c15b-418b-b7d1-08d8fbe28505"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF" classname="Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF" status="PASSED">
+         <system-out><![CDATA[2018-02-05 14:12:13 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF: Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF
+
+2018-02-05 14:12:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:12:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:12:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:12:27 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:12:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-05 14:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-05 14:12:31 - [TEST_STEP][PASSED] - setText: Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-02-05 14:12:35 - [MESSAGE][PASSED] - Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-02-05 14:12:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-02-05 14:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-02-05 14:12:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-02-05 14:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-02-05 14:12:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-05 14:12:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG CPF Invalido" classname="Test Cases/Validacao Campo e MSG/MSG CPF Invalido" status="PASSED">
+         <system-out><![CDATA[2018-02-05 14:12:41 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG CPF Invalido: Test Cases/Validacao Campo e MSG/MSG CPF Invalido
+
+2018-02-05 14:12:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:12:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:12:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:12:54 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:12:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-05 14:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-05 14:12:57 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-02-05 14:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-02-05 14:12:59 - [TEST_STEP][PASSED] - setText: Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-02-05 14:13:04 - [MESSAGE][PASSED] - Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-02-05 14:13:04 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-02-05 14:13:08 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-02-05 14:13:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-02-05 14:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-02-05 14:13:10 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-02-05 14:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-02-05 14:13:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-05 14:13:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado" classname="Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado" status="PASSED">
+         <system-out><![CDATA[2018-02-05 14:13:15 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado: Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado
+
+2018-02-05 14:13:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:13:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:13:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:13:28 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:13:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-02-05 14:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-02-05 14:13:31 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-02-05 14:13:35 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-02-05 14:13:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-02-05 14:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-02-05 14:13:38 - [TEST_STEP][PASSED] - check: Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-02-05 14:13:41 - [MESSAGE][PASSED] - Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-02-05 14:13:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-05 14:13:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado" classname="Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado" status="PASSED">
+         <system-out><![CDATA[2018-02-05 14:13:43 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado: Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado
+
+2018-02-05 14:13:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:13:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:13:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:13:56 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:13:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-02-05 14:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-02-05 14:14:00 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-02-05 14:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-02-05 14:14:02 - [TEST_STEP][PASSED] - setText: Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-02-05 14:14:06 - [MESSAGE][PASSED] - Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-02-05 14:14:06 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-02-05 14:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-02-05 14:14:08 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-02-05 14:14:13 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-02-05 14:14:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-02-05 14:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-02-05 14:14:15 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' is checked
+
+2018-02-05 14:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' is checked
+
+2018-02-05 14:14:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-05 14:14:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG Senha Errada" classname="Test Cases/Validacao Campo e MSG/MSG Senha Errada" status="PASSED">
+         <system-out><![CDATA[2018-02-05 14:14:20 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG Senha Errada: Test Cases/Validacao Campo e MSG/MSG Senha Errada
+
+2018-02-05 14:14:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:14:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:14:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:14:33 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:14:33 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-02-05 14:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-02-05 14:14:35 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-02-05 14:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-02-05 14:14:39 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-02-05 14:14:43 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-02-05 14:14:43 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-02-05 14:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-02-05 14:14:45 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-02-05 14:14:49 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-02-05 14:14:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-02-05 14:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-02-05 14:14:52 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-02-05 14:14:55 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-02-05 14:14:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-05 14:14:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/Verificar Email Rodape" classname="Test Cases/Validacao Campo e MSG/Verificar Email Rodape" status="PASSED">
+         <system-out><![CDATA[2018-02-05 14:14:56 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/Verificar Email Rodape: Test Cases/Validacao Campo e MSG/Verificar Email Rodape
+
+2018-02-05 14:14:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:15:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:15:09 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:15:09 - [TEST_STEP][PASSED] - check: Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-02-05 14:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-02-05 14:15:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-05 14:15:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/Verificar Localizacao" classname="Test Cases/Validacao Campo e MSG/Verificar Localizacao" status="FAILED">
+         <failure type="FAILED" message="Unable to check object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' located by 'By.xpath: //td[(text() = 'Boa Viagem, Recife - PE, Brasil' or . = 'Boa Viagem, Recife - PE, Brasil')]' not found)"/>
+         <system-out><![CDATA[2018-02-05 14:15:14 - [TEST_CASE][FAILED] - Test Cases/Validacao Campo e MSG/Verificar Localizacao: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to check object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' located by 'By.xpath: //td[(text() = 'Boa Viagem, Recife - PE, Brasil' or . = 'Boa Viagem, Recife - PE, Brasil')]' not found)
+
+2018-02-05 14:15:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:15:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:15:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:15:28 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:15:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/VerificarLocalizacao/div_dtl1738014' is double clicked on
+
+2018-02-05 14:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VerificarLocalizacao/div_dtl1738014' is double clicked on
+
+2018-02-05 14:15:30 - [TEST_STEP][PASSED] - setText: Text 'boa viagem, recife' is set on object 'Object Repository/VerificarLocalizacao/input_endereco'
+
+2018-02-05 14:15:35 - [MESSAGE][PASSED] - Text 'boa viagem, recife' is set on object 'Object Repository/VerificarLocalizacao/input_endereco'
+
+2018-02-05 14:15:35 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/VerificarLocalizacao/button_btnIr' is double clicked on
+
+2018-02-05 14:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/VerificarLocalizacao/button_btnIr' is double clicked on
+
+2018-02-05 14:15:38 - [TEST_STEP][FAILED] - check: Unable to check object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' located by 'By.xpath: //td[(text() = 'Boa Viagem, Recife - PE, Brasil' or . = 'Boa Viagem, Recife - PE, Brasil')]' not found)
+
+2018-02-05 14:16:09 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' located by 'By.xpath: //td[(text() = 'Boa Viagem, Recife - PE, Brasil' or . = 'Boa Viagem, Recife - PE, Brasil')]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180205_140722\\1517850968313.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-05 14:15:14 - [TEST_CASE][FAILED] - Test Cases/Validacao Campo e MSG/Verificar Localizacao: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to check object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' located by 'By.xpath: //td[(text() = 'Boa Viagem, Recife - PE, Brasil' or . = 'Boa Viagem, Recife - PE, Brasil')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade" classname="Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade" status="PASSED">
+         <system-out><![CDATA[2018-02-05 14:16:09 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade: Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade
+
+2018-02-05 14:16:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-05 14:16:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-05 14:16:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-05 14:16:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:16:24 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-05 14:16:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-02-05 14:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-02-05 14:16:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-02-05 14:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-02-05 14:16:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-05 14:16:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-05 14:12:13 - [TEST_SUITE][FAILED] - Validar Campo e MSG suite: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to check object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' located by 'By.xpath: //td[(text() = 'Boa Viagem, Recife - PE, Brasil' or . = 'Boa Viagem, Recife - PE, Brasil')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-05 14:12:13 - [TEST_SUITE][FAILED] - Validar Campo e MSG suite: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to check object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' located by 'By.xpath: //td[(text() = 'Boa Viagem, Recife - PE, Brasil' or . = 'Boa Viagem, Recife - PE, Brasil')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

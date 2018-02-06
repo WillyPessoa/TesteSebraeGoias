@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_senha (2)</name>
+   <tag></tag>
+   <elementGuidId>6eeb4deb-6cb9-442a-8532-697c622c3e5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[count(. | //*[@type = 'password']) = count(//*[@type = 'password'])][count(. | //*[@name = 'senha']) = count(//*[@name = 'senha'])][count(. | id(&quot;formPessoaFisica&quot;)/fieldset[@class=&quot;formularios&quot;]/div[@class=&quot;containerCampo&quot;]/input[1]) = count(id(&quot;formPessoaFisica&quot;)/fieldset[@class=&quot;formularios&quot;]/div[@class=&quot;containerCampo&quot;]/input[1])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>senha</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formPessoaFisica&quot;)/fieldset[@class=&quot;formularios&quot;]/div[@class=&quot;containerCampo&quot;]/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

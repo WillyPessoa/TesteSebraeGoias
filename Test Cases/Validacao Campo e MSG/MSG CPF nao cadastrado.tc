@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MSG CPF nao cadastrado</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f5a7c19-fa74-45fc-842a-dc5ac61de1ef</testCaseGuid>
+</TestCaseEntity>

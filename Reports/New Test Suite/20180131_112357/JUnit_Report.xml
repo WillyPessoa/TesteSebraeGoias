@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="62" tests="2" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="1" errors="0" time="62" timestamp="2018-01-31 11:23:59" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\New Test Suite\\20180131_112357"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\New Test Suite\\20180131_112357\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\New Test Suite\\20180131_112357\\1517408676259.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="bdae20e9-4912-4a68-a538-f106a8aa9d4a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HOMEPAGE/Verificar Email Rodape" classname="Test Cases/HOMEPAGE/Verificar Email Rodape" status="PASSED">
+         <system-out><![CDATA[2018-01-31 11:23:59 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE/Verificar Email Rodape: Test Cases/HOMEPAGE/Verificar Email Rodape
+
+2018-01-31 11:23:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 11:24:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 11:24:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 11:24:15 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 11:24:15 - [TEST_STEP][PASSED] - check: Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-31 11:24:18 - [MESSAGE][PASSED] - Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-31 11:24:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 11:24:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HOMEPAGE/Verificar Localizacao" classname="Test Cases/HOMEPAGE/Verificar Localizacao" status="FAILED">
+         <failure type="FAILED" message="Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (228.1999969482422, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b73497-8139-4b9c-a03d-4b1b15acf259)"/>
+         <system-out><![CDATA[2018-01-31 11:24:19 - [TEST_CASE][FAILED] - Test Cases/HOMEPAGE/Verificar Localizacao: Test Cases/HOMEPAGE/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (228.1999969482422, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b73497-8139-4b9c-a03d-4b1b15acf259)
+
+2018-01-31 11:24:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 11:24:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 11:24:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 11:24:34 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 11:24:34 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (228.1999969482422, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b73497-8139-4b9c-a03d-4b1b15acf259)
+
+2018-01-31 11:24:37 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (228.1999969482422, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b73497-8139-4b9c-a03d-4b1b15acf259)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\New Test Suite\\20180131_112357\\1517408676259.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-31 11:24:19 - [TEST_CASE][FAILED] - Test Cases/HOMEPAGE/Verificar Localizacao: Test Cases/HOMEPAGE/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (228.1999969482422, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b73497-8139-4b9c-a03d-4b1b15acf259)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade" classname="Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade" status="PASSED">
+         <system-out><![CDATA[2018-01-31 11:24:37 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade: Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade
+
+2018-01-31 11:24:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 11:24:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-31 11:24:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 11:24:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 11:24:54 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 11:24:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-01-31 11:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-01-31 11:24:57 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-01-31 11:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-01-31 11:25:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 11:25:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-31 11:23:59 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/HOMEPAGE/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (228.1999969482422, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b73497-8139-4b9c-a03d-4b1b15acf259)]]></system-out>
+      <system-err><![CDATA[2018-01-31 11:23:59 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/HOMEPAGE/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (228.1999969482422, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5912, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b73497-8139-4b9c-a03d-4b1b15acf259)]]></system-err>
+   </testsuite>
+</testsuites>

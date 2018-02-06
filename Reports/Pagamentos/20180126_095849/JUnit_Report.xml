@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pagamentos" time="51" tests="0" failures="1" errors="0">
+   <testsuite name="Pagamentos" tests="0" failures="1" errors="0" time="51" timestamp="2018-01-26 10:00:11" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Pagamentos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pagamentos\\20180126_095849"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pagamentos\\20180126_095849\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pagamentos\\20180126_095849\\1516971661464.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="2f4d9264b0eaf6d36c16ac163c61a248"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HOMEPAGE/Adicionar Carrinho" classname="Test Cases/HOMEPAGE/Adicionar Carrinho" status="FAILED">
+         <failure type="FAILED" message="Unable to double click on object 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'infoPagamento.cartao.nome']) = count(//*[@name = 'infoPagamento.cartao.nome'])][count(. | //*[@class = 'required fieldcard']) = count(//*[@class = 'required fieldcard'])][count(. | //*[@placeholder = 'Nome do Cartão']) = count(//*[@placeholder = 'Nome do Cartão'])][count(. | id(&quot;cartaodecredito&quot;)/form[@id=&quot;infoPagamento&quot;]/fieldset[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3&quot;]/label[@class=&quot;campoPagar cartao&quot;]/input[@class=&quot;required fieldcard&quot;]) = count(id(&quot;cartaodecredito&quot;)/form[@id=&quot;infoPagamento&quot;]/fieldset[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3&quot;]/label[@class=&quot;campoPagar cartao&quot;]/input[@class=&quot;required fieldcard&quot;])]' not found)"/>
+         <system-out><![CDATA[2018-01-26 10:00:11 - [TEST_CASE][FAILED] - Test Cases/HOMEPAGE/Adicionar Carrinho: Test Cases/HOMEPAGE/Adicionar Carrinho FAILED because (of) Unable to double click on object 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'infoPagamento.cartao.nome']) = count(//*[@name = 'infoPagamento.cartao.nome'])][count(. | //*[@class = 'required fieldcard']) = count(//*[@class = 'required fieldcard'])][count(. | //*[@placeholder = 'Nome do Cartão']) = count(//*[@placeholder = 'Nome do Cartão'])][count(. | id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"]) = count(id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"])]' not found)
+
+2018-01-26 10:00:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 10:00:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 10:00:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 10:00:20 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 10:00:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carrinho TitularCartao/a_Entre' is clicked on
+
+2018-01-26 10:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/a_Entre' is clicked on
+
+2018-01-26 10:00:22 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Carrinho TitularCartao/input_cpf'
+
+2018-01-26 10:00:22 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Carrinho TitularCartao/input_cpf'
+
+2018-01-26 10:00:22 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/Carrinho TitularCartao/input_senha'
+
+2018-01-26 10:00:22 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/Carrinho TitularCartao/input_senha'
+
+2018-01-26 10:00:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carrinho TitularCartao/input_ok' is clicked on
+
+2018-01-26 10:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/input_ok' is clicked on
+
+2018-01-26 10:00:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carrinho TitularCartao/h3_rea de Inovao' is clicked on
+
+2018-01-26 10:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/h3_rea de Inovao' is clicked on
+
+2018-01-26 10:00:29 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Carrinho TitularCartao/a_Adicionar ao carrinho' is double clicked on
+
+2018-01-26 10:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/a_Adicionar ao carrinho' is double clicked on
+
+2018-01-26 10:00:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-26 10:00:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-26 10:00:29 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'infoPagamento.cartao.nome']) = count(//*[@name = 'infoPagamento.cartao.nome'])][count(. | //*[@class = 'required fieldcard']) = count(//*[@class = 'required fieldcard'])][count(. | //*[@placeholder = 'Nome do Cartão']) = count(//*[@placeholder = 'Nome do Cartão'])][count(. | id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"]) = count(id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"])]' not found)
+
+2018-01-26 10:01:01 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'infoPagamento.cartao.nome']) = count(//*[@name = 'infoPagamento.cartao.nome'])][count(. | //*[@class = 'required fieldcard']) = count(//*[@class = 'required fieldcard'])][count(. | //*[@placeholder = 'Nome do Cartão']) = count(//*[@placeholder = 'Nome do Cartão'])][count(. | id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"]) = count(id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"])]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pagamentos\\20180126_095849\\1516971661464.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-26 10:00:11 - [TEST_CASE][FAILED] - Test Cases/HOMEPAGE/Adicionar Carrinho: Test Cases/HOMEPAGE/Adicionar Carrinho FAILED because (of) Unable to double click on object 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'infoPagamento.cartao.nome']) = count(//*[@name = 'infoPagamento.cartao.nome'])][count(. | //*[@class = 'required fieldcard']) = count(//*[@class = 'required fieldcard'])][count(. | //*[@placeholder = 'Nome do Cartão']) = count(//*[@placeholder = 'Nome do Cartão'])][count(. | id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"]) = count(id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-26 10:00:11 - [TEST_SUITE][FAILED] - Pagamentos: Test Cases/HOMEPAGE/Adicionar Carrinho FAILED because (of) Unable to double click on object 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'infoPagamento.cartao.nome']) = count(//*[@name = 'infoPagamento.cartao.nome'])][count(. | //*[@class = 'required fieldcard']) = count(//*[@class = 'required fieldcard'])][count(. | //*[@placeholder = 'Nome do Cartão']) = count(//*[@placeholder = 'Nome do Cartão'])][count(. | id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"]) = count(id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-26 10:00:11 - [TEST_SUITE][FAILED] - Pagamentos: Test Cases/HOMEPAGE/Adicionar Carrinho FAILED because (of) Unable to double click on object 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@name = 'infoPagamento.cartao.nome']) = count(//*[@name = 'infoPagamento.cartao.nome'])][count(. | //*[@class = 'required fieldcard']) = count(//*[@class = 'required fieldcard'])][count(. | //*[@placeholder = 'Nome do Cartão']) = count(//*[@placeholder = 'Nome do Cartão'])][count(. | id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"]) = count(id("cartaodecredito")/form[@id="infoPagamento"]/fieldset[@class="row"]/div[@class="col-sm-3"]/label[@class="campoPagar cartao"]/input[@class="required fieldcard"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

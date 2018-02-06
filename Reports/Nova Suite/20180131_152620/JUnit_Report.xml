@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Nova Suite" time="204" tests="6" failures="0" errors="0">
+   <testsuite name="Nova Suite" tests="6" failures="0" errors="0" time="204" timestamp="2018-01-31 15:28:09" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Nova Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Nova Suite\\20180131_152620"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Nova Suite\\20180131_152620\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="e1a97ed5-8ef5-4fba-af9b-dfb78250a661"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ENTRE/MSG Cadastrar CPF" classname="Test Cases/ENTRE/MSG Cadastrar CPF" status="PASSED">
+         <system-out><![CDATA[2018-01-31 15:28:09 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG Cadastrar CPF: Test Cases/ENTRE/MSG Cadastrar CPF
+
+2018-01-31 15:28:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 15:28:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 15:28:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:28:26 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:28:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-31 15:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-31 15:28:29 - [TEST_STEP][PASSED] - setText: Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-31 15:28:34 - [MESSAGE][PASSED] - Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-31 15:28:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-31 15:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-31 15:28:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-01-31 15:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-01-31 15:28:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 15:28:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG CPF Invalido" classname="Test Cases/ENTRE/MSG CPF Invalido" status="PASSED">
+         <system-out><![CDATA[2018-01-31 15:28:40 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG CPF Invalido: Test Cases/ENTRE/MSG CPF Invalido
+
+2018-01-31 15:28:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 15:28:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 15:28:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:28:54 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:28:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-31 15:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-31 15:28:57 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-31 15:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-31 15:29:00 - [TEST_STEP][PASSED] - setText: Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-31 15:29:04 - [MESSAGE][PASSED] - Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-31 15:29:04 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-31 15:29:08 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-31 15:29:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-31 15:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-31 15:29:10 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-31 15:29:14 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-31 15:29:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 15:29:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG CPF Ja Cadastrado" classname="Test Cases/ENTRE/MSG CPF Ja Cadastrado" status="PASSED">
+         <system-out><![CDATA[2018-01-31 15:29:15 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG CPF Ja Cadastrado: Test Cases/ENTRE/MSG CPF Ja Cadastrado
+
+2018-01-31 15:29:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 15:29:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 15:29:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:29:29 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:29:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-01-31 15:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-01-31 15:29:32 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-01-31 15:29:36 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-01-31 15:29:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-01-31 15:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-01-31 15:29:40 - [TEST_STEP][PASSED] - check: Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-01-31 15:29:43 - [MESSAGE][PASSED] - Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-01-31 15:29:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 15:29:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG CPF nao cadastrado" classname="Test Cases/ENTRE/MSG CPF nao cadastrado" status="PASSED">
+         <system-out><![CDATA[2018-01-31 15:29:44 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG CPF nao cadastrado: Test Cases/ENTRE/MSG CPF nao cadastrado
+
+2018-01-31 15:29:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 15:29:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 15:29:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:30:00 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:30:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-31 15:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-31 15:30:03 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-31 15:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-31 15:30:05 - [TEST_STEP][PASSED] - setText: Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-31 15:30:09 - [MESSAGE][PASSED] - Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-31 15:30:09 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-31 15:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-31 15:30:12 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-31 15:30:16 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-31 15:30:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-31 15:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-31 15:30:19 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' is checked
+
+2018-01-31 15:30:22 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' is checked
+
+2018-01-31 15:30:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 15:30:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG Senha Errada" classname="Test Cases/ENTRE/MSG Senha Errada" status="PASSED">
+         <system-out><![CDATA[2018-01-31 15:30:23 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG Senha Errada: Test Cases/ENTRE/MSG Senha Errada
+
+2018-01-31 15:30:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 15:30:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 15:30:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:30:37 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:30:37 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-01-31 15:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-01-31 15:30:39 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-01-31 15:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-01-31 15:30:43 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-01-31 15:30:47 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-01-31 15:30:47 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-01-31 15:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-01-31 15:30:49 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-01-31 15:30:53 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-01-31 15:30:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-01-31 15:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-01-31 15:30:56 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-01-31 15:30:59 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-01-31 15:30:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 15:31:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/RecuperacaoSenha" classname="Test Cases/ENTRE/RecuperacaoSenha" status="PASSED">
+         <system-out><![CDATA[2018-01-31 15:31:01 - [TEST_CASE][PASSED] - Test Cases/ENTRE/RecuperacaoSenha: Test Cases/ENTRE/RecuperacaoSenha
+
+2018-01-31 15:31:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-31 15:31:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-31 15:31:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:31:14 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-31 15:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-01-31 15:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-01-31 15:31:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-01-31 15:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-01-31 15:31:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-31 15:31:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-31 15:31:23 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-01-31 15:31:27 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-01-31 15:31:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-01-31 15:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-01-31 15:31:29 - [TEST_STEP][PASSED] - check: Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-01-31 15:31:33 - [MESSAGE][PASSED] - Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-01-31 15:31:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-31 15:31:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-31 15:28:09 - [TEST_SUITE][PASSED] - Nova Suite: Test Cases/ENTRE/RecuperacaoSenha]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

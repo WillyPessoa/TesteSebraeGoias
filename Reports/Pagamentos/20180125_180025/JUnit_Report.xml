@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pagamentos" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="Pagamentos" tests="1" failures="0" errors="0" time="21" timestamp="2018-01-25 18:00:40" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Pagamentos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pagamentos\\20180125_180025"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pagamentos\\20180125_180025\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="fa5d48e61411b189ad8fbcb24d3ef415"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Adicionar Carrinho" classname="Test Cases/Adicionar Carrinho" status="PASSED">
+         <system-out><![CDATA[2018-01-25 18:00:41 - [TEST_CASE][PASSED] - Test Cases/Adicionar Carrinho: Test Cases/Adicionar Carrinho
+
+2018-01-25 18:00:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 18:00:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 18:00:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-25 18:00:50 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-25 18:00:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carrinho TitularCartao/a_Entre' is clicked on
+
+2018-01-25 18:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/a_Entre' is clicked on
+
+2018-01-25 18:00:51 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Carrinho TitularCartao/input_cpf'
+
+2018-01-25 18:00:52 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Carrinho TitularCartao/input_cpf'
+
+2018-01-25 18:00:52 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/Carrinho TitularCartao/input_senha'
+
+2018-01-25 18:00:52 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/Carrinho TitularCartao/input_senha'
+
+2018-01-25 18:00:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carrinho TitularCartao/input_ok' is clicked on
+
+2018-01-25 18:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/input_ok' is clicked on
+
+2018-01-25 18:00:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Carrinho TitularCartao/h3_rea de Inovao' is clicked on
+
+2018-01-25 18:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/h3_rea de Inovao' is clicked on
+
+2018-01-25 18:00:58 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Carrinho TitularCartao/a_Adicionar ao carrinho' is double clicked on
+
+2018-01-25 18:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/a_Adicionar ao carrinho' is double clicked on
+
+2018-01-25 18:00:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-25 18:00:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-25 18:00:58 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' is double clicked on
+
+2018-01-25 18:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Carrinho TitularCartao/input_infoPagamento.cartao.nom' is double clicked on
+
+2018-01-25 18:01:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-25 18:01:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-25 18:00:40 - [TEST_SUITE][PASSED] - Pagamentos: Test Cases/Adicionar Carrinho]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

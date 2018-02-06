@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mensagens de validacao" time="72" tests="4" failures="1" errors="0">
+   <testsuite name="Mensagens de validacao" tests="4" failures="1" errors="0" time="72" timestamp="2018-01-26 17:37:19" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Mensagens de validacao">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180126_173717"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180126_173717\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180126_173717\\1516999071336.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="4b6b8469-6dfb-417d-a52c-9ff928151c07"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ENTRE/MSG CPF Invalido" classname="Test Cases/ENTRE/MSG CPF Invalido" status="PASSED">
+         <system-out><![CDATA[2018-01-26 17:37:19 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG CPF Invalido: Test Cases/ENTRE/MSG CPF Invalido
+
+2018-01-26 17:37:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 17:37:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 17:37:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:37:32 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:37:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-26 17:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-26 17:37:33 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-26 17:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-26 17:37:33 - [TEST_STEP][PASSED] - setText: Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-26 17:37:33 - [MESSAGE][PASSED] - Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-26 17:37:33 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-26 17:37:34 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-26 17:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-26 17:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-26 17:37:34 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-26 17:37:34 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-26 17:37:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 17:37:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG CPF nao cadastrado" classname="Test Cases/ENTRE/MSG CPF nao cadastrado" status="FAILED">
+         <failure type="FAILED" message="Unable to check object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;p id=&quot;message&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6560, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 056c5979-abbc-4c59-8bf9-5a7b8757c0da)"/>
+         <system-out><![CDATA[2018-01-26 17:37:34 - [TEST_CASE][FAILED] - Test Cases/ENTRE/MSG CPF nao cadastrado: Test Cases/ENTRE/MSG CPF nao cadastrado FAILED because (of) Unable to check object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <p id="message"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6560, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 056c5979-abbc-4c59-8bf9-5a7b8757c0da)
+
+2018-01-26 17:37:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 17:37:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 17:37:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:37:48 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:37:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-26 17:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-26 17:37:50 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-26 17:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-26 17:37:50 - [TEST_STEP][PASSED] - setText: Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-26 17:37:50 - [MESSAGE][PASSED] - Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-26 17:37:50 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-26 17:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-26 17:37:50 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-26 17:37:50 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-26 17:37:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-26 17:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-26 17:37:51 - [TEST_STEP][FAILED] - check: Unable to check object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <p id="message"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6560, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 056c5979-abbc-4c59-8bf9-5a7b8757c0da)
+
+2018-01-26 17:37:51 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <p id="message"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6560, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 056c5979-abbc-4c59-8bf9-5a7b8757c0da)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180126_173717\\1516999071336.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-26 17:37:34 - [TEST_CASE][FAILED] - Test Cases/ENTRE/MSG CPF nao cadastrado: Test Cases/ENTRE/MSG CPF nao cadastrado FAILED because (of) Unable to check object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <p id="message"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6560, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 056c5979-abbc-4c59-8bf9-5a7b8757c0da)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG Senha Errada" classname="Test Cases/ENTRE/MSG Senha Errada" status="PASSED">
+         <system-out><![CDATA[2018-01-26 17:37:51 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG Senha Errada: Test Cases/ENTRE/MSG Senha Errada
+
+2018-01-26 17:37:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 17:37:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-26 17:37:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 17:37:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:38:02 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:38:02 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-01-26 17:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-01-26 17:38:02 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-01-26 17:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-01-26 17:38:04 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-01-26 17:38:04 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-01-26 17:38:04 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-01-26 17:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-01-26 17:38:04 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-01-26 17:38:04 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-01-26 17:38:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-01-26 17:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-01-26 17:38:05 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-01-26 17:38:05 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-01-26 17:38:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 17:38:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG Cadastrar CPF" classname="Test Cases/ENTRE/MSG Cadastrar CPF" status="PASSED">
+         <system-out><![CDATA[2018-01-26 17:38:06 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG Cadastrar CPF: Test Cases/ENTRE/MSG Cadastrar CPF
+
+2018-01-26 17:38:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 17:38:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 17:38:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:38:16 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:38:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-26 17:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-26 17:38:17 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (3)' is double clicked on
+
+2018-01-26 17:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (3)' is double clicked on
+
+2018-01-26 17:38:17 - [TEST_STEP][PASSED] - setText: Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-26 17:38:18 - [MESSAGE][PASSED] - Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-26 17:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-26 17:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-26 17:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-01-26 17:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-01-26 17:38:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 17:38:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/MSG CPF Ja Cadastrado" classname="Test Cases/ENTRE/MSG CPF Ja Cadastrado" status="PASSED">
+         <system-out><![CDATA[2018-01-26 17:38:19 - [TEST_CASE][PASSED] - Test Cases/ENTRE/MSG CPF Ja Cadastrado: Test Cases/ENTRE/MSG CPF Ja Cadastrado
+
+2018-01-26 17:38:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 17:38:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 17:38:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:38:29 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 17:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-01-26 17:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-01-26 17:38:30 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-01-26 17:38:30 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-01-26 17:38:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-01-26 17:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-01-26 17:38:31 - [TEST_STEP][PASSED] - check: Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-01-26 17:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-01-26 17:38:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 17:38:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-26 17:37:19 - [TEST_SUITE][FAILED] - Mensagens de validacao: Test Cases/ENTRE/MSG CPF nao cadastrado FAILED because (of) Unable to check object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <p id="message"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6560, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 056c5979-abbc-4c59-8bf9-5a7b8757c0da)]]></system-out>
+      <system-err><![CDATA[2018-01-26 17:37:19 - [TEST_SUITE][FAILED] - Mensagens de validacao: Test Cases/ENTRE/MSG CPF nao cadastrado FAILED because (of) Unable to check object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <p id="message"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6560, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 056c5979-abbc-4c59-8bf9-5a7b8757c0da)]]></system-err>
+   </testsuite>
+</testsuites>

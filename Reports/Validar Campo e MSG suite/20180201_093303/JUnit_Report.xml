@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validar Campo e MSG suite" time="219" tests="7" failures="1" errors="0">
+   <testsuite name="Validar Campo e MSG suite" tests="7" failures="1" errors="0" time="219" timestamp="2018-02-01 09:36:48" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Validar Campo e MSG suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180201_093303"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180201_093303\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180201_093303\\1517488805906.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="f89a3985-e1fd-4105-8915-55a6623c1619"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF" classname="Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF" status="PASSED">
+         <system-out><![CDATA[2018-02-01 09:36:48 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF: Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF
+
+2018-02-01 09:36:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:36:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:36:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:37:02 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:37:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-01 09:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-01 09:37:05 - [TEST_STEP][PASSED] - setText: Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-02-01 09:37:10 - [MESSAGE][PASSED] - Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-02-01 09:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-02-01 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-02-01 09:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-02-01 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' is clicked on
+
+2018-02-01 09:37:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 09:37:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG CPF Invalido" classname="Test Cases/Validacao Campo e MSG/MSG CPF Invalido" status="PASSED">
+         <system-out><![CDATA[2018-02-01 09:37:16 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG CPF Invalido: Test Cases/Validacao Campo e MSG/MSG CPF Invalido
+
+2018-02-01 09:37:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:37:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:37:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:37:30 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:37:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-01 09:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-02-01 09:37:34 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-02-01 09:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-02-01 09:37:36 - [TEST_STEP][PASSED] - setText: Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-02-01 09:37:40 - [MESSAGE][PASSED] - Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-02-01 09:37:40 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-02-01 09:37:44 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-02-01 09:37:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-02-01 09:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-02-01 09:37:46 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-02-01 09:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-02-01 09:37:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 09:37:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado" classname="Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado" status="PASSED">
+         <system-out><![CDATA[2018-02-01 09:37:51 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado: Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado
+
+2018-02-01 09:37:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:37:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:37:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:38:05 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:38:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-02-01 09:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/a_Entre' is clicked on
+
+2018-02-01 09:38:08 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-02-01 09:38:12 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MSGCPFJaCdastrado/input_cpf'
+
+2018-02-01 09:38:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-02-01 09:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MSGCPFJaCdastrado/input_querocadastrar' is clicked on
+
+2018-02-01 09:38:15 - [TEST_STEP][PASSED] - check: Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-02-01 09:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/MSGCPFJaCdastrado/p_J existe um cadastro com o C' is checked
+
+2018-02-01 09:38:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 09:38:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado" classname="Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado" status="PASSED">
+         <system-out><![CDATA[2018-02-01 09:38:20 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado: Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado
+
+2018-02-01 09:38:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:38:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:38:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:38:33 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:38:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-02-01 09:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-02-01 09:38:37 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-02-01 09:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-02-01 09:38:39 - [TEST_STEP][PASSED] - setText: Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-02-01 09:38:43 - [MESSAGE][PASSED] - Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-02-01 09:38:43 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-02-01 09:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-02-01 09:38:45 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-02-01 09:38:49 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-02-01 09:38:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-02-01 09:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-02-01 09:38:52 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' is checked
+
+2018-02-01 09:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' is checked
+
+2018-02-01 09:38:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 09:38:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/MSG Senha Errada" classname="Test Cases/Validacao Campo e MSG/MSG Senha Errada" status="PASSED">
+         <system-out><![CDATA[2018-02-01 09:38:57 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/MSG Senha Errada: Test Cases/Validacao Campo e MSG/MSG Senha Errada
+
+2018-02-01 09:38:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:39:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:39:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:39:10 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:39:10 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-02-01 09:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (2)' is double clicked on
+
+2018-02-01 09:39:12 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-02-01 09:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (2)' is double clicked on
+
+2018-02-01 09:39:16 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-02-01 09:39:20 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Mensagem Validacao/input_cpf (2)'
+
+2018-02-01 09:39:20 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-02-01 09:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (2)' is double clicked on
+
+2018-02-01 09:39:22 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-02-01 09:39:26 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha (2)'
+
+2018-02-01 09:39:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-02-01 09:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (2)' is clicked on
+
+2018-02-01 09:39:29 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-02-01 09:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/p_Dados de acesso invlidos' is checked
+
+2018-02-01 09:39:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 09:39:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/Verificar Email Rodape" classname="Test Cases/Validacao Campo e MSG/Verificar Email Rodape" status="PASSED">
+         <system-out><![CDATA[2018-02-01 09:39:33 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/Verificar Email Rodape: Test Cases/Validacao Campo e MSG/Verificar Email Rodape
+
+2018-02-01 09:39:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:39:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:39:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:39:46 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:39:46 - [TEST_STEP][PASSED] - check: Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-02-01 09:39:50 - [MESSAGE][PASSED] - Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-02-01 09:39:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 09:39:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/Verificar Localizacao" classname="Test Cases/Validacao Campo e MSG/Verificar Localizacao" status="FAILED">
+         <failure type="FAILED" message="Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (525.7333374023438, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8252, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d806a33e-3d78-4125-86ce-93dc5fc69f47)"/>
+         <system-out><![CDATA[2018-02-01 09:39:51 - [TEST_CASE][FAILED] - Test Cases/Validacao Campo e MSG/Verificar Localizacao: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (525.7333374023438, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8252, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d806a33e-3d78-4125-86ce-93dc5fc69f47)
+
+2018-02-01 09:39:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:39:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:39:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:40:03 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:40:03 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (525.7333374023438, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8252, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d806a33e-3d78-4125-86ce-93dc5fc69f47)
+
+2018-02-01 09:40:07 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (525.7333374023438, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8252, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d806a33e-3d78-4125-86ce-93dc5fc69f47)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validar Campo e MSG suite\\20180201_093303\\1517488805906.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-01 09:39:51 - [TEST_CASE][FAILED] - Test Cases/Validacao Campo e MSG/Verificar Localizacao: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (525.7333374023438, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8252, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d806a33e-3d78-4125-86ce-93dc5fc69f47)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade" classname="Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade" status="PASSED">
+         <system-out><![CDATA[2018-02-01 09:40:07 - [TEST_CASE][PASSED] - Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade: Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade
+
+2018-02-01 09:40:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 09:40:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-01 09:40:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 09:40:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:40:21 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 09:40:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-02-01 09:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-02-01 09:40:24 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-02-01 09:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-02-01 09:40:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 09:40:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-01 09:36:48 - [TEST_SUITE][FAILED] - Validar Campo e MSG suite: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (525.7333374023438, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8252, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d806a33e-3d78-4125-86ce-93dc5fc69f47)]]></system-out>
+      <system-err><![CDATA[2018-02-01 09:36:48 - [TEST_SUITE][FAILED] - Validar Campo e MSG suite: Test Cases/Validacao Campo e MSG/Verificar Localizacao FAILED because (of) Unable to double click on object 'Object Repository/VerificarLocalizacao/div_dtl1738014' (Root cause: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (525.7333374023438, 702.9000091552734) is out of bounds of viewport width (1366) and height (654)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8252, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d806a33e-3d78-4125-86ce-93dc5fc69f47)]]></system-err>
+   </testsuite>
+</testsuites>

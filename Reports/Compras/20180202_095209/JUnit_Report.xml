@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Compras" time="204" tests="0" failures="3" errors="0">
+   <testsuite name="Compras" tests="0" failures="3" errors="0" time="204" timestamp="2018-02-02 09:52:11" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Compras">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209\\1517575996600.png, C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209\\1517576065154.png, C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209\\1517576133990.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="a21a70c8-c6f0-4c0d-9803-bd7ca4c81aa7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COMPRAS/Adicionar Carrinho" classname="Test Cases/COMPRAS/Adicionar Carrinho" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id(&quot;principal&quot;)/div[@class=&quot;lista_principal row&quot;]/div[@id=&quot;dtl1738041&quot;]/div[@id=&quot;dtl1738041&quot;]/div[@class=&quot;margin&quot;]/a[1]/h3[@class=&quot;tituloCurso&quot;][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)"/>
+         <system-out><![CDATA[2018-02-02 09:52:11 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Adicionar Carrinho: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)
+
+2018-02-02 09:52:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-02 09:52:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-02 09:52:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 09:52:30 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 09:52:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdicionarCarrinho/a_Entre' is clicked on
+
+2018-02-02 09:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AdicionarCarrinho/a_Entre' is clicked on
+
+2018-02-02 09:52:33 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/AdicionarCarrinho/input_cpf'
+
+2018-02-02 09:52:37 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/AdicionarCarrinho/input_cpf'
+
+2018-02-02 09:52:37 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/AdicionarCarrinho/input_senha'
+
+2018-02-02 09:52:41 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/AdicionarCarrinho/input_senha'
+
+2018-02-02 09:52:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdicionarCarrinho/input_ok' is clicked on
+
+2018-02-02 09:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AdicionarCarrinho/input_ok' is clicked on
+
+2018-02-02 09:52:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)
+
+2018-02-02 09:53:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209\\1517575996600.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-02 09:52:11 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Adicionar Carrinho: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COMPRAS/Minhas inscricoes - Concluida" classname="Test Cases/COMPRAS/Minhas inscricoes - Concluida" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value '2' of object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)"/>
+         <system-out><![CDATA[2018-02-02 09:53:17 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Minhas inscricoes - Concluida: Test Cases/COMPRAS/Minhas inscricoes - Concluida FAILED because (of) Unable to select option by value '2' of object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)
+
+2018-02-02 09:53:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-02 09:53:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-02 09:53:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-02 09:53:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 09:53:32 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 09:53:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-02 09:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-02 09:53:36 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-02 09:53:40 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-02 09:53:40 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-02 09:53:44 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-02 09:53:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-02 09:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-02 09:53:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-02 09:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-02 09:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-02 09:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-02 09:53:54 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '2' of object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)
+
+2018-02-02 09:54:26 - [MESSAGE][FAILED] - Unable to select option by value '2' of object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209\\1517576065154.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-02 09:53:17 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Minhas inscricoes - Concluida: Test Cases/COMPRAS/Minhas inscricoes - Concluida FAILED because (of) Unable to select option by value '2' of object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado" classname="Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value '1' of object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)"/>
+         <system-out><![CDATA[2018-02-02 09:54:26 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado: Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado FAILED because (of) Unable to select option by value '1' of object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)
+
+2018-02-02 09:54:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-02 09:54:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-02 09:54:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-02 09:54:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 09:54:42 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 09:54:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-02 09:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-02 09:54:46 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-02 09:54:50 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-02 09:54:50 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-02 09:54:54 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-02 09:54:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-02 09:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-02 09:54:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-02 09:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-02 09:55:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-02 09:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-02 09:55:03 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '1' of object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)
+
+2018-02-02 09:55:35 - [MESSAGE][FAILED] - Unable to select option by value '1' of object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_095209\\1517576133990.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-02 09:54:26 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado: Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado FAILED because (of) Unable to select option by value '1' of object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND' located by 'By.xpath: //select[@name = 'status' and (text() = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				' or . = '
+					Selecione um status
+					
+						PENDENTE PAGAMENTO
+					
+						EM ANDAMENTO
+					
+						CONCLUÍDA
+					
+						CANCELADA
+					
+				')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-02 09:52:11 - [TEST_SUITE][FAILED] - Compras: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-02 09:52:11 - [TEST_SUITE][FAILED] - Compras: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

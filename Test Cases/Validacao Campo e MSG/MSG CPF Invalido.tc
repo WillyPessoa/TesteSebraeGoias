@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teste de validação de mensagem para CPF Invalido na area de login</description>
+   <name>MSG CPF Invalido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e864ede9-4358-47e1-a931-5402f911cd1f</testCaseGuid>
+</TestCaseEntity>

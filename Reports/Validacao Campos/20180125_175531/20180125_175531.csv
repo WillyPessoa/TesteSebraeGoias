@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validacao Campos,Chrome 63.0.3239.132,,2018-01-25 17:58:00,2018-01-25 17:58:20,"20,096s",PASSED
+,,,,,,
+Test Cases/Verificar Titular Cartao,Chrome 63.0.3239.132,,2018-01-25 17:58:00,2018-01-25 17:58:01,"0,374s",PASSED
+Statement - return null,Chrome 63.0.3239.132,,2018-01-25 17:58:01,2018-01-25 17:58:01,"0,001s",PASSED
+,,,,,,
+Test Cases/Verificar Email Rodape,Chrome 63.0.3239.132,,2018-01-25 17:58:01,2018-01-25 17:58:10,"9,588s",PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-01-25 17:58:01,2018-01-25 17:58:04,"2,804s",PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-01-25 17:58:04,2018-01-25 17:58:09,"5,809s",PASSED
+check,Chrome 63.0.3239.132,,2018-01-25 17:58:09,2018-01-25 17:58:10,"0,145s",PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-01-25 17:58:10,2018-01-25 17:58:10,"0,672s",PASSED
+,,,,,,
+Test Cases/Verificar PoliticasPrivacidade,Chrome 63.0.3239.132,,2018-01-25 17:58:10,2018-01-25 17:58:20,"9,730s",PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-01-25 17:58:10,2018-01-25 17:58:12,"1,949s",PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-01-25 17:58:12,2018-01-25 17:58:18,"5,437s",PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 17:58:18,2018-01-25 17:58:19,"1,466s",PASSED
+doubleClick,Chrome 63.0.3239.132,,2018-01-25 17:58:19,2018-01-25 17:58:19,"0,091s",PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-01-25 17:58:19,2018-01-25 17:58:20,"0,649s",PASSED

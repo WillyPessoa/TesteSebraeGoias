@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mensagens de validacao" time="76" tests="1" failures="3" errors="0">
+   <testsuite name="Mensagens de validacao" tests="1" failures="3" errors="0" time="76" timestamp="2018-01-25 12:07:56" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Mensagens de validacao">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_120755"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_120755\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_120755\\1516892952970.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="59535d4e-6448-4ea5-ba3a-0fd0f07b4475"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MSG CPF Invalido" classname="Test Cases/MSG CPF Invalido" status="PASSED">
+         <system-out><![CDATA[2018-01-25 12:07:56 - [TEST_CASE][PASSED] - Test Cases/MSG CPF Invalido: Test Cases/MSG CPF Invalido
+
+2018-01-25 12:07:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 12:08:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 12:08:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 12:08:07 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 12:08:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 12:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 12:08:09 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-25 12:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf' is double clicked on
+
+2018-01-25 12:08:09 - [TEST_STEP][PASSED] - setText: Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-25 12:08:09 - [MESSAGE][PASSED] - Text '32132135132' is set on object 'Object Repository/Mensagem Validacao/input_cpf'
+
+2018-01-25 12:08:09 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-25 12:08:09 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Mensagem Validacao/input_senha'
+
+2018-01-25 12:08:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-25 12:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok' is clicked on
+
+2018-01-25 12:08:09 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-25 12:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido.' is checked
+
+2018-01-25 12:08:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-25 12:08:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MSG CPF nao cadastrado" classname="Test Cases/MSG CPF nao cadastrado" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047
+*** Element info: {Using=xpath, value=//p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]})"/>
+         <system-out><![CDATA[2018-01-25 12:08:10 - [TEST_CASE][FAILED] - Test Cases/MSG CPF nao cadastrado: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047
+*** Element info: {Using=xpath, value=//p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]})
+
+2018-01-25 12:08:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 12:08:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 12:08:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 12:08:20 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 12:08:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-25 12:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre (1)' is clicked on
+
+2018-01-25 12:08:21 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-25 12:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (1)' is double clicked on
+
+2018-01-25 12:08:21 - [TEST_STEP][PASSED] - setText: Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-25 12:08:21 - [MESSAGE][PASSED] - Text '560.114.088-00' is set on object 'Object Repository/Mensagem Validacao/input_cpf (1)'
+
+2018-01-25 12:08:21 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-25 12:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_senha (1)' is double clicked on
+
+2018-01-25 12:08:22 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-25 12:08:22 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Mensagem Validacao/input_senha (1)'
+
+2018-01-25 12:08:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-25 12:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_ok (1)' is clicked on
+
+2018-01-25 12:08:22 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047
+*** Element info: {Using=xpath, value=//p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]})
+
+2018-01-25 12:08:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-25 12:08:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047
+*** Element info: {Using=xpath, value=//p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]})]]></system-out>
+         <system-err><![CDATA[2018-01-25 12:08:10 - [TEST_CASE][FAILED] - Test Cases/MSG CPF nao cadastrado: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047
+*** Element info: {Using=xpath, value=//p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MSG Senha Errada" classname="Test Cases/MSG Senha Errada" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047)"/>
+         <system-out><![CDATA[2018-01-25 12:08:30 - [TEST_CASE][FAILED] - Test Cases/MSG Senha Errada: Test Cases/MSG Senha Errada FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047)
+
+2018-01-25 12:08:31 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047)
+
+2018-01-25 12:08:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-25 12:08:31 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047)]]></system-out>
+         <system-err><![CDATA[2018-01-25 12:08:30 - [TEST_CASE][FAILED] - Test Cases/MSG Senha Errada: Test Cases/MSG Senha Errada FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MSG Cadastrar CPF" classname="Test Cases/MSG Cadastrar CPF" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)"/>
+         <system-out><![CDATA[2018-01-25 12:08:31 - [TEST_CASE][FAILED] - Test Cases/MSG Cadastrar CPF: Test Cases/MSG Cadastrar CPF FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)
+
+2018-01-25 12:08:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 12:08:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 12:08:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 12:08:39 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja/' successfully
+
+2018-01-25 12:08:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 12:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/a_Entre' is clicked on
+
+2018-01-25 12:08:41 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Mensagem Validacao/input_cpf (3)' is double clicked on
+
+2018-01-25 12:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_cpf (3)' is double clicked on
+
+2018-01-25 12:08:41 - [TEST_STEP][PASSED] - setText: Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-25 12:08:41 - [MESSAGE][PASSED] - Text '32132132151' is set on object 'Object Repository/Mensagem Validacao/input_cpf (3)'
+
+2018-01-25 12:08:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-25 12:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Mensagem Validacao/input_querocadastrar' is clicked on
+
+2018-01-25 12:08:42 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)
+
+2018-01-25 12:09:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Mensagens de validacao\\20180125_120755\\1516892952970.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 12:08:31 - [TEST_CASE][FAILED] - Test Cases/MSG Cadastrar CPF: Test Cases/MSG Cadastrar CPF FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Mensagem Validacao/label_Informe um CPF Vlido. (1)' located by 'By.xpath: //label[count(. | //*[text() = 'Informe um CPF Válido.']) = count(//*[text() = 'Informe um CPF Válido.'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-25 12:07:56 - [TEST_SUITE][FAILED] - Mensagens de validacao: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047
+*** Element info: {Using=xpath, value=//p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]})]]></system-out>
+      <system-err><![CDATA[2018-01-25 12:07:56 - [TEST_SUITE][FAILED] - Mensagens de validacao: Test Cases/MSG CPF nao cadastrado FAILED because (of) Unable to click on object 'Object Repository/Mensagem Validacao/p_O CPF digitado no foi encont' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 864, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 18ee70ed-8060-4eaa-9fec-7bb21ffed047
+*** Element info: {Using=xpath, value=//p[count(. | //*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.']) = count(//*[text() = 'O CPF digitado não foi encontrado em nossa base de dados.'])]})]]></system-err>
+   </testsuite>
+</testsuites>

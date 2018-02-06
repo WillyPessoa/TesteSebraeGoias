@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pag Entre" time="131" tests="3" failures="0" errors="0">
+   <testsuite name="Pag Entre" tests="3" failures="0" errors="0" time="131" timestamp="2018-02-01 16:56:44" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Pag Entre">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pag Entre\\20180201_165332"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pag Entre\\20180201_165332\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="a5c8b2a5-817b-4a19-8dda-93d885e44f3b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ENTRE/Login Valido" classname="Test Cases/ENTRE/Login Valido" status="PASSED">
+         <system-out><![CDATA[2018-02-01 16:56:44 - [TEST_CASE][PASSED] - Test Cases/ENTRE/Login Valido: Test Cases/ENTRE/Login Valido
+
+2018-02-01 16:56:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 16:56:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 16:56:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 16:56:59 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 16:56:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 16:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 16:57:03 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 16:57:07 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 16:57:07 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 16:57:11 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 16:57:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 16:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 16:57:15 - [TEST_STEP][PASSED] - check: Object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' is checked
+
+2018-02-01 16:57:18 - [MESSAGE][PASSED] - Object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' is checked
+
+2018-02-01 16:57:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 16:57:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/RecuperacaoSenha" classname="Test Cases/ENTRE/RecuperacaoSenha" status="PASSED">
+         <system-out><![CDATA[2018-02-01 16:57:19 - [TEST_CASE][PASSED] - Test Cases/ENTRE/RecuperacaoSenha: Test Cases/ENTRE/RecuperacaoSenha
+
+2018-02-01 16:57:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 16:57:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 16:57:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 16:57:33 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 16:57:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-02-01 16:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-02-01 16:57:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-02-01 16:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-02-01 16:57:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-01 16:57:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-01 16:57:41 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-02-01 16:57:45 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-02-01 16:57:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-02-01 16:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-02-01 16:57:48 - [TEST_STEP][PASSED] - check: Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-02-01 16:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-02-01 16:57:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 16:57:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/Meus dados - Alterar Senha" classname="Test Cases/ENTRE/Meus dados - Alterar Senha" status="PASSED">
+         <system-out><![CDATA[2018-02-01 16:57:52 - [TEST_CASE][PASSED] - Test Cases/ENTRE/Meus dados - Alterar Senha: Test Cases/ENTRE/Meus dados - Alterar Senha
+
+2018-02-01 16:57:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 16:58:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 16:58:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 16:58:05 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 16:58:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 16:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 16:58:08 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 16:58:12 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 16:58:12 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 16:58:17 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 16:58:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Alterar Senha/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 16:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Alterar Senha/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 16:58:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/span_rea do cliente' is clicked on
+
+2018-02-01 16:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/span_rea do cliente' is clicked on
+
+2018-02-01 16:58:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/a_Meus dados' is clicked on
+
+2018-02-01 16:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/a_Meus dados' is clicked on
+
+2018-02-01 16:58:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/alterarSenhaForm' successfully
+
+2018-02-01 16:58:30 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/alterarSenhaForm' successfully
+
+2018-02-01 16:58:30 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/input_senha (1)'
+
+2018-02-01 16:58:34 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/input_senha (1)'
+
+2018-02-01 16:58:34 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/input_confirmarSenha'
+
+2018-02-01 16:58:38 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/input_confirmarSenha'
+
+2018-02-01 16:58:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/button_Confirmar' is clicked on
+
+2018-02-01 16:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/button_Confirmar' is clicked on
+
+2018-02-01 16:58:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Meus/input_avancar' is clicked on
+
+2018-02-01 16:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Meus/input_avancar' is clicked on
+
+2018-02-01 16:58:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/div_            Informao do si' is clicked on
+
+2018-02-01 16:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/div_            Informao do si' is clicked on
+
+2018-02-01 16:58:50 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/h1_Cursos e eventos' is checked
+
+2018-02-01 16:58:53 - [MESSAGE][PASSED] - Object 'Object Repository/Alterar Senha/Page_SebraeGO  Loja Virtual - Curso/h1_Cursos e eventos' is checked
+
+2018-02-01 16:58:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 16:58:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-01 16:56:44 - [TEST_SUITE][PASSED] - Pag Entre: Test Cases/ENTRE/Meus dados - Alterar Senha]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

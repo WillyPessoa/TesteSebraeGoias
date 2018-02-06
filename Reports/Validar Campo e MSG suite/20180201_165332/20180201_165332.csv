@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validar Campo e MSG suite,Firefox 58.0,,2018-02-01 16:58:56,2018-02-01 17:02:46,"3m - 49,103s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/MSG Cadastrar CPF,Firefox 58.0,,2018-02-01 16:58:57,2018-02-01 16:59:24,"27,150s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 16:58:57,2018-02-01 16:59:05,"8,340s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 16:59:05,2018-02-01 16:59:11,"5,132s",PASSED
+click,Firefox 58.0,,2018-02-01 16:59:11,2018-02-01 16:59:14,"3,296s",PASSED
+setText,Firefox 58.0,,2018-02-01 16:59:14,2018-02-01 16:59:18,"4,137s",PASSED
+click,Firefox 58.0,,2018-02-01 16:59:18,2018-02-01 16:59:20,"2,457s",PASSED
+click,Firefox 58.0,,2018-02-01 16:59:20,2018-02-01 16:59:23,"2,269s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 16:59:23,2018-02-01 16:59:24,"1,246s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/MSG CPF Invalido,Firefox 58.0,Teste de valida\u00E7\u00E3o de mensagem para CPF Invalido na area de login,2018-02-01 16:59:24,2018-02-01 16:59:58,"34,135s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 16:59:24,2018-02-01 16:59:32,"7,482s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 16:59:32,2018-02-01 16:59:37,"5,855s",PASSED
+click,Firefox 58.0,,2018-02-01 16:59:37,2018-02-01 16:59:41,"3,330s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 16:59:41,2018-02-01 16:59:43,"2,247s",PASSED
+setText,Firefox 58.0,,2018-02-01 16:59:43,2018-02-01 16:59:47,"4,115s",PASSED
+setText,Firefox 58.0,,2018-02-01 16:59:47,2018-02-01 16:59:51,"4,095s",PASSED
+click,Firefox 58.0,,2018-02-01 16:59:51,2018-02-01 16:59:54,"2,288s",PASSED
+check,Firefox 58.0,,2018-02-01 16:59:54,2018-02-01 16:59:57,"3,282s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 16:59:57,2018-02-01 16:59:58,"1,259s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/MSG CPF Ja Cadastrado,Firefox 58.0,,2018-02-01 16:59:58,2018-02-01 17:00:27,"28,457s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 16:59:58,2018-02-01 17:00:06,"7,463s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 17:00:06,2018-02-01 17:00:11,"5,787s",PASSED
+click,Firefox 58.0,,2018-02-01 17:00:11,2018-02-01 17:00:15,"3,358s",PASSED
+setText,Firefox 58.0,,2018-02-01 17:00:15,2018-02-01 17:00:19,"4,113s",PASSED
+click,Firefox 58.0,,2018-02-01 17:00:19,2018-02-01 17:00:22,"3,095s",PASSED
+check,Firefox 58.0,,2018-02-01 17:00:22,2018-02-01 17:00:25,"3,266s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 17:00:25,2018-02-01 17:00:27,"1,254s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/MSG CPF nao cadastrado,Firefox 58.0,,2018-02-01 17:00:27,2018-02-01 17:01:02,"35,722s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 17:00:27,2018-02-01 17:00:34,"7,457s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 17:00:34,2018-02-01 17:00:39,"5,188s",PASSED
+click,Firefox 58.0,,2018-02-01 17:00:39,2018-02-01 17:00:43,"3,209s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:00:43,2018-02-01 17:00:45,"2,214s",PASSED
+setText,Firefox 58.0,,2018-02-01 17:00:45,2018-02-01 17:00:49,"4,127s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:00:49,2018-02-01 17:00:51,"2,212s",PASSED
+setText,Firefox 58.0,,2018-02-01 17:00:51,2018-02-01 17:00:55,"4,074s",PASSED
+click,Firefox 58.0,,2018-02-01 17:00:55,2018-02-01 17:00:58,"2,634s",PASSED
+check,Firefox 58.0,,2018-02-01 17:00:58,2018-02-01 17:01:01,"3,257s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 17:01:01,2018-02-01 17:01:02,"1,204s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/MSG Senha Errada,Firefox 58.0,,2018-02-01 17:01:02,2018-02-01 17:01:39,"37,139s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 17:01:02,2018-02-01 17:01:10,"8,053s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 17:01:10,2018-02-01 17:01:16,"5,221s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:01:16,2018-02-01 17:01:18,"2,221s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:01:18,2018-02-01 17:01:22,"3,726s",PASSED
+setText,Firefox 58.0,,2018-02-01 17:01:22,2018-02-01 17:01:26,"4,114s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:01:26,2018-02-01 17:01:28,"2,209s",PASSED
+setText,Firefox 58.0,,2018-02-01 17:01:28,2018-02-01 17:01:32,"4,085s",PASSED
+click,Firefox 58.0,,2018-02-01 17:01:32,2018-02-01 17:01:35,"2,744s",PASSED
+check,Firefox 58.0,,2018-02-01 17:01:35,2018-02-01 17:01:38,"3,261s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 17:01:38,2018-02-01 17:01:39,"1,341s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/Verificar Email Rodape,Firefox 58.0,,2018-02-01 17:01:39,2018-02-01 17:01:56,"16,926s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 17:01:40,2018-02-01 17:01:47,"6,992s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 17:01:47,2018-02-01 17:01:52,"5,311s",PASSED
+check,Firefox 58.0,,2018-02-01 17:01:52,2018-02-01 17:01:55,"3,274s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 17:01:55,2018-02-01 17:01:56,"1,217s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/Verificar Localizacao,Firefox 58.0,,2018-02-01 17:01:56,2018-02-01 17:02:26,"29,927s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 17:01:57,2018-02-01 17:02:04,"7,838s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 17:02:04,2018-02-01 17:02:12,"7,141s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:02:12,2018-02-01 17:02:14,"2,238s",PASSED
+setText,Firefox 58.0,,2018-02-01 17:02:14,2018-02-01 17:02:19,"5,622s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:02:19,2018-02-01 17:02:22,"2,197s",PASSED
+check,Firefox 58.0,,2018-02-01 17:02:22,2018-02-01 17:02:25,"3,291s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 17:02:25,2018-02-01 17:02:26,"1,397s",PASSED
+,,,,,,
+Test Cases/Validacao Campo e MSG/Verificar PoliticasPrivacidade,Firefox 58.0,,2018-02-01 17:02:26,2018-02-01 17:02:46,"19,301s",PASSED
+openBrowser,Firefox 58.0,,2018-02-01 17:02:26,2018-02-01 17:02:34,"7,484s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-01 17:02:34,2018-02-01 17:02:39,"5,241s",PASSED
+click,Firefox 58.0,,2018-02-01 17:02:39,2018-02-01 17:02:42,"2,975s",PASSED
+doubleClick,Firefox 58.0,,2018-02-01 17:02:42,2018-02-01 17:02:44,"2,235s",PASSED
+closeBrowser,Firefox 58.0,,2018-02-01 17:02:44,2018-02-01 17:02:46,"1,227s",PASSED

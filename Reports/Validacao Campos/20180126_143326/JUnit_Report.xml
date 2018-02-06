@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validacao Campos" time="37" tests="3" failures="0" errors="0">
+   <testsuite name="Validacao Campos" tests="3" failures="0" errors="0" time="37" timestamp="2018-01-26 14:35:18" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Validacao Campos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Campos\\20180126_143326"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Campos\\20180126_143326\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="4308c0ab6e35ccbcf46da52c171b2333"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HOMEPAGE/Verificar Email Rodape" classname="Test Cases/HOMEPAGE/Verificar Email Rodape" status="PASSED">
+         <system-out><![CDATA[2018-01-26 14:35:19 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE/Verificar Email Rodape: Test Cases/HOMEPAGE/Verificar Email Rodape
+
+2018-01-26 14:35:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 14:35:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 14:35:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:35:28 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:35:28 - [TEST_STEP][PASSED] - check: Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-26 14:35:29 - [MESSAGE][PASSED] - Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-26 14:35:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 14:35:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade" classname="Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade" status="PASSED">
+         <system-out><![CDATA[2018-01-26 14:35:29 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade: Test Cases/HOMEPAGE/Verificar PoliticasPrivacidade
+
+2018-01-26 14:35:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 14:35:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 14:35:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:35:39 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:35:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-01-26 14:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/a_Poltica de comercializao e p' is clicked on
+
+2018-01-26 14:35:40 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-01-26 14:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar PoliticaPrivacidade/p_Este documento tem como obje' is double clicked on
+
+2018-01-26 14:35:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 14:35:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HOMEPAGE/Verificar Localizacao" classname="Test Cases/HOMEPAGE/Verificar Localizacao" status="PASSED">
+         <system-out><![CDATA[2018-01-26 14:35:41 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE/Verificar Localizacao: Test Cases/HOMEPAGE/Verificar Localizacao
+
+2018-01-26 14:35:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 14:35:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 14:35:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:35:49 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:35:49 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/VerificarLocalizacao/div_dtl1738014' is double clicked on
+
+2018-01-26 14:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/VerificarLocalizacao/div_dtl1738014' is double clicked on
+
+2018-01-26 14:35:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VerificarLocalizacao/h3_Juntos Somos Fortes - kit e' is clicked on
+
+2018-01-26 14:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/VerificarLocalizacao/h3_Juntos Somos Fortes - kit e' is clicked on
+
+2018-01-26 14:35:54 - [TEST_STEP][PASSED] - setText: Text 'boa viagem, recife' is set on object 'Object Repository/VerificarLocalizacao/input_endereco'
+
+2018-01-26 14:35:54 - [MESSAGE][PASSED] - Text 'boa viagem, recife' is set on object 'Object Repository/VerificarLocalizacao/input_endereco'
+
+2018-01-26 14:35:54 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/VerificarLocalizacao/button_btnIr' is double clicked on
+
+2018-01-26 14:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/VerificarLocalizacao/button_btnIr' is double clicked on
+
+2018-01-26 14:35:54 - [TEST_STEP][PASSED] - check: Object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' is checked
+
+2018-01-26 14:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/VerificarLocalizacao/td_Boa Viagem Recife - PE Bras' is checked
+
+2018-01-26 14:35:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 14:35:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-26 14:35:18 - [TEST_SUITE][PASSED] - Validacao Campos: Test Cases/HOMEPAGE/Verificar Localizacao]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

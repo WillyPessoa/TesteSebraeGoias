@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pag Entre" time="94" tests="1" failures="1" errors="0">
+   <testsuite name="Pag Entre" tests="1" failures="1" errors="0" time="94" timestamp="2018-02-01 10:11:44" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Pag Entre">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pag Entre\\20180201_100945"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pag Entre\\20180201_100945\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pag Entre\\20180201_100945\\1517490763440.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="45285ab3-ba8c-4b9f-9b8d-23c21871646f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ENTRE/Login Valido" classname="Test Cases/ENTRE/Login Valido" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' located by 'By.xpath: //b[(text() = 'Utilize qualquer opção para localizar eventos: ' or . = 'Utilize qualquer opção para localizar eventos: ')]' not found)"/>
+         <system-out><![CDATA[2018-02-01 10:11:44 - [TEST_CASE][FAILED] - Test Cases/ENTRE/Login Valido: Test Cases/ENTRE/Login Valido FAILED because (of) Unable to click on object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' located by 'By.xpath: //b[(text() = 'Utilize qualquer opção para localizar eventos: ' or . = 'Utilize qualquer opção para localizar eventos: ')]' not found)
+
+2018-02-01 10:11:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 10:11:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 10:11:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 10:12:00 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 10:12:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 10:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 10:12:04 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_cpf' is double clicked on
+
+2018-02-01 10:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_cpf' is double clicked on
+
+2018-02-01 10:12:06 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 10:12:10 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 10:12:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 10:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginValido/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 10:12:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' located by 'By.xpath: //b[(text() = 'Utilize qualquer opção para localizar eventos: ' or . = 'Utilize qualquer opção para localizar eventos: ')]' not found)
+
+2018-02-01 10:12:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' located by 'By.xpath: //b[(text() = 'Utilize qualquer opção para localizar eventos: ' or . = 'Utilize qualquer opção para localizar eventos: ')]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Pag Entre\\20180201_100945\\1517490763440.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-01 10:11:44 - [TEST_CASE][FAILED] - Test Cases/ENTRE/Login Valido: Test Cases/ENTRE/Login Valido FAILED because (of) Unable to click on object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' located by 'By.xpath: //b[(text() = 'Utilize qualquer opção para localizar eventos: ' or . = 'Utilize qualquer opção para localizar eventos: ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ENTRE/RecuperacaoSenha" classname="Test Cases/ENTRE/RecuperacaoSenha" status="PASSED">
+         <system-out><![CDATA[2018-02-01 10:12:44 - [TEST_CASE][PASSED] - Test Cases/ENTRE/RecuperacaoSenha: Test Cases/ENTRE/RecuperacaoSenha
+
+2018-02-01 10:12:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 10:12:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-01 10:12:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 10:12:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 10:12:59 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 10:12:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-02-01 10:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-02-01 10:13:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-02-01 10:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-02-01 10:13:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-01 10:13:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-01 10:13:08 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-02-01 10:13:12 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-02-01 10:13:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-02-01 10:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-02-01 10:13:14 - [TEST_STEP][PASSED] - check: Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-02-01 10:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-02-01 10:13:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 10:13:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-01 10:11:44 - [TEST_SUITE][FAILED] - Pag Entre: Test Cases/ENTRE/Login Valido FAILED because (of) Unable to click on object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' located by 'By.xpath: //b[(text() = 'Utilize qualquer opção para localizar eventos: ' or . = 'Utilize qualquer opção para localizar eventos: ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-01 10:11:44 - [TEST_SUITE][FAILED] - Pag Entre: Test Cases/ENTRE/Login Valido FAILED because (of) Unable to click on object 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginValido/Page_SebraeGO  Loja Virtual - Curso/b_Utilize qualquer opo para lo' located by 'By.xpath: //b[(text() = 'Utilize qualquer opção para localizar eventos: ' or . = 'Utilize qualquer opção para localizar eventos: ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

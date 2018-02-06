@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Compras" time="125" tests="1" failures="2" errors="0">
+   <testsuite name="Compras" tests="1" failures="2" errors="0" time="125" timestamp="2018-02-02 10:04:51" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Compras">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_100449"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180202_100449\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="21b8b201-a043-489d-8acb-b3b5c92ee778"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COMPRAS/Adicionar Carrinho" classname="Test Cases/COMPRAS/Adicionar Carrinho" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id(&quot;principal&quot;)/div[@class=&quot;lista_principal row&quot;]/div[@id=&quot;dtl1738041&quot;]/div[@id=&quot;dtl1738041&quot;]/div[@class=&quot;margin&quot;]/a[1]/h3[@class=&quot;tituloCurso&quot;][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)"/>
+         <system-out><![CDATA[2018-02-02 10:04:51 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Adicionar Carrinho: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)
+
+2018-02-02 10:04:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-02 10:05:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-02 10:05:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 10:05:07 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 10:05:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdicionarCarrinho/a_Entre' is clicked on
+
+2018-02-02 10:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AdicionarCarrinho/a_Entre' is clicked on
+
+2018-02-02 10:05:11 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/AdicionarCarrinho/input_cpf'
+
+2018-02-02 10:05:15 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/AdicionarCarrinho/input_cpf'
+
+2018-02-02 10:05:15 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/AdicionarCarrinho/input_senha'
+
+2018-02-02 10:05:19 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/AdicionarCarrinho/input_senha'
+
+2018-02-02 10:05:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdicionarCarrinho/input_ok' is clicked on
+
+2018-02-02 10:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AdicionarCarrinho/input_ok' is clicked on
+
+2018-02-02 10:05:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)
+
+2018-02-02 10:05:55 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-02 10:05:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)]]></system-out>
+         <system-err><![CDATA[2018-02-02 10:04:51 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Adicionar Carrinho: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COMPRAS/Minhas inscricoes - Concluida" classname="Test Cases/COMPRAS/Minhas inscricoes - Concluida" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8444, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c76a7bd-f3c1-414c-90ea-97e333b758fb)"/>
+         <system-out><![CDATA[2018-02-02 10:05:55 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Minhas inscricoes - Concluida: Test Cases/COMPRAS/Minhas inscricoes - Concluida FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8444, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c76a7bd-f3c1-414c-90ea-97e333b758fb)
+
+2018-02-02 10:05:55 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8444, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c76a7bd-f3c1-414c-90ea-97e333b758fb)
+
+2018-02-02 10:05:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-02 10:05:56 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8444, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c76a7bd-f3c1-414c-90ea-97e333b758fb)]]></system-out>
+         <system-err><![CDATA[2018-02-02 10:05:55 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Minhas inscricoes - Concluida: Test Cases/COMPRAS/Minhas inscricoes - Concluida FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-9LJP0A4', ip: '10.155.1.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8444, moz:profile: C:\Users\behoh-tester\AppDa..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c76a7bd-f3c1-414c-90ea-97e333b758fb)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado" classname="Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado" status="PASSED">
+         <system-out><![CDATA[2018-02-02 10:05:56 - [TEST_CASE][PASSED] - Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado: Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado
+
+2018-02-02 10:05:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-02 10:06:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-02 10:06:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 10:06:10 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-02 10:06:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-02 10:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-02 10:06:14 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-02 10:06:18 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-02 10:06:18 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-02 10:06:22 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-02 10:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-02 10:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-02 10:06:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-02 10:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-02 10:06:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-02 10:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-02 10:06:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression
+
+2018-02-02 10:06:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression
+
+2018-02-02 10:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/input_btnFiltrar' is clicked on
+
+2018-02-02 10:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/input_btnFiltrar' is clicked on
+
+2018-02-02 10:06:52 - [TEST_STEP][PASSED] - check: Object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/div_Nenhum resultado encontrad' is checked
+
+2018-02-02 10:06:56 - [MESSAGE][PASSED] - Object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/div_Nenhum resultado encontrad' is checked
+
+2018-02-02 10:06:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-02 10:06:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-02 10:04:51 - [TEST_SUITE][FAILED] - Compras: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-02 10:04:51 - [TEST_SUITE][FAILED] - Compras: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' located by 'By.xpath: id("principal")/div[@class="lista_principal row"]/div[@id="dtl1738041"]/div[@id="dtl1738041"]/div[@class="margin"]/a[1]/h3[@class="tituloCurso"][count(. | //h3[@class = 'tituloCurso']) = count(//h3[@class = 'tituloCurso'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

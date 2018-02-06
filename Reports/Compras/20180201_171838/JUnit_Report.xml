@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Compras" time="192" tests="2" failures="1" errors="0">
+   <testsuite name="Compras" tests="2" failures="1" errors="0" time="192" timestamp="2018-02-01 17:18:40" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Compras">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180201_171838"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180201_171838\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180201_171838\\1517516381831.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="8649f208-84ff-42a2-964c-f43769faffda"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COMPRAS/Adicionar Carrinho" classname="Test Cases/COMPRAS/Adicionar Carrinho" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' located by 'By.xpath: //*[@class = 'add addInscricao onCarrinho top_compra hvr-bounce-in']' not found)"/>
+         <system-out><![CDATA[2018-02-01 17:18:40 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Adicionar Carrinho: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' located by 'By.xpath: //*[@class = 'add addInscricao onCarrinho top_compra hvr-bounce-in']' not found)
+
+2018-02-01 17:18:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 17:18:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 17:18:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 17:18:53 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 17:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdicionarCarrinho/a_Entre' is clicked on
+
+2018-02-01 17:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AdicionarCarrinho/a_Entre' is clicked on
+
+2018-02-01 17:18:57 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/AdicionarCarrinho/input_cpf'
+
+2018-02-01 17:19:01 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/AdicionarCarrinho/input_cpf'
+
+2018-02-01 17:19:01 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/AdicionarCarrinho/input_senha'
+
+2018-02-01 17:19:05 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/AdicionarCarrinho/input_senha'
+
+2018-02-01 17:19:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdicionarCarrinho/input_ok' is clicked on
+
+2018-02-01 17:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdicionarCarrinho/input_ok' is clicked on
+
+2018-02-01 17:19:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' is clicked on
+
+2018-02-01 17:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AdicionarCarrinho/h3_Custos para produzir No Cam' is clicked on
+
+2018-02-01 17:19:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' located by 'By.xpath: //*[@class = 'add addInscricao onCarrinho top_compra hvr-bounce-in']' not found)
+
+2018-02-01 17:19:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' located by 'By.xpath: //*[@class = 'add addInscricao onCarrinho top_compra hvr-bounce-in']' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Compras\\20180201_171838\\1517516381831.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-01 17:18:40 - [TEST_CASE][FAILED] - Test Cases/COMPRAS/Adicionar Carrinho: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' located by 'By.xpath: //*[@class = 'add addInscricao onCarrinho top_compra hvr-bounce-in']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COMPRAS/Minhas inscricoes - Concluida" classname="Test Cases/COMPRAS/Minhas inscricoes - Concluida" status="PASSED">
+         <system-out><![CDATA[2018-02-01 17:19:42 - [TEST_CASE][PASSED] - Test Cases/COMPRAS/Minhas inscricoes - Concluida: Test Cases/COMPRAS/Minhas inscricoes - Concluida
+
+2018-02-01 17:19:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 17:19:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-01 17:19:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 17:19:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 17:19:57 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 17:19:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 17:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 17:20:00 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 17:20:04 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 17:20:04 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 17:20:08 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 17:20:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 17:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 17:20:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-01 17:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-01 17:20:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-01 17:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-01 17:20:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression
+
+2018-02-01 17:20:37 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression
+
+2018-02-01 17:20:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/input_btnFiltrar' is clicked on
+
+2018-02-01 17:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/input_btnFiltrar' is clicked on
+
+2018-02-01 17:20:40 - [TEST_STEP][PASSED] - check: Object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/a_Comprovante de inscrio' is checked
+
+2018-02-01 17:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/MinhasInscricoes/Page_SebraeGO  Loja Virtual - Minha/a_Comprovante de inscrio' is checked
+
+2018-02-01 17:20:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 17:20:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado" classname="Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado" status="PASSED">
+         <system-out><![CDATA[2018-02-01 17:20:50 - [TEST_CASE][PASSED] - Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado: Test Cases/COMPRAS/Minhas inscricoes - Sem Resultado
+
+2018-02-01 17:20:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-01 17:20:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-01 17:20:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 17:21:06 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-02-01 17:21:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 17:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Entre' is clicked on
+
+2018-02-01 17:21:09 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 17:21:13 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_cpf'
+
+2018-02-01 17:21:13 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 17:21:17 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_senha'
+
+2018-02-01 17:21:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 17:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO - Loja Virtual - Logi/input_ok' is clicked on
+
+2018-02-01 17:21:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-01 17:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/span_caret' is clicked on
+
+2018-02-01 17:21:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-01 17:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Curso/a_Minhas inscries' is clicked on
+
+2018-02-01 17:21:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression
+
+2018-02-01 17:21:45 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/select_Selecione um statusPEND'  using regular expression
+
+2018-02-01 17:21:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/input_btnFiltrar' is clicked on
+
+2018-02-01 17:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/input_btnFiltrar' is clicked on
+
+2018-02-01 17:21:47 - [TEST_STEP][PASSED] - check: Object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/div_Nenhum resultado encontrad' is checked
+
+2018-02-01 17:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/MinhasInscricoes Vazia/Page_SebraeGO  Loja Virtual - Minha/div_Nenhum resultado encontrad' is checked
+
+2018-02-01 17:21:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-01 17:21:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-01 17:18:40 - [TEST_SUITE][FAILED] - Compras: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' located by 'By.xpath: //*[@class = 'add addInscricao onCarrinho top_compra hvr-bounce-in']' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-01 17:18:40 - [TEST_SUITE][FAILED] - Compras: Test Cases/COMPRAS/Adicionar Carrinho FAILED because (of) Unable to click on object 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdicionarCarrinho/a_Adicionar ao carrinho' located by 'By.xpath: //*[@class = 'add addInscricao onCarrinho top_compra hvr-bounce-in']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validacao Campos" time="60" tests="1" failures="1" errors="0">
+   <testsuite name="Validacao Campos" tests="1" failures="1" errors="0" time="60" timestamp="2018-01-24 17:53:17" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Validacao Campos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Campos\\20180124_175316"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Campos\\20180124_175316\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Campos\\20180124_175316\\1516827244697.png"/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="af9cff6e-075e-44ef-9b2d-2ca3e49b7227"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verificar Titular Cartao" classname="Test Cases/Verificar Titular Cartao" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' located by 'By.xpath: //p[count(. | //*[text() = 'PAGAMENTO  PENDENTE']) = count(//*[text() = 'PAGAMENTO  PENDENTE'])]' not found)"/>
+         <system-out><![CDATA[2018-01-24 17:53:18 - [TEST_CASE][FAILED] - Test Cases/Verificar Titular Cartao: Test Cases/Verificar Titular Cartao FAILED because (of) Unable to click on object 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' located by 'By.xpath: //p[count(. | //*[text() = 'PAGAMENTO  PENDENTE']) = count(//*[text() = 'PAGAMENTO  PENDENTE'])]' not found)
+
+2018-01-24 17:53:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-24 17:53:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-24 17:53:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja-teste/loja/' successfully
+
+2018-01-24 17:53:28 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja-teste/loja/' successfully
+
+2018-01-24 17:53:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Verificar Campos/a_Entre' is clicked on
+
+2018-01-24 17:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar Campos/a_Entre' is clicked on
+
+2018-01-24 17:53:29 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Verificar Campos/input_cpf' is double clicked on
+
+2018-01-24 17:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar Campos/input_cpf' is double clicked on
+
+2018-01-24 17:53:30 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/Verificar Campos/input_cpf'
+
+2018-01-24 17:53:30 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/Verificar Campos/input_cpf'
+
+2018-01-24 17:53:30 - [TEST_STEP][PASSED] - setText: Text '1234asdF' is set on object 'Object Repository/Verificar Campos/input_senha'
+
+2018-01-24 17:53:30 - [MESSAGE][PASSED] - Text '1234asdF' is set on object 'Object Repository/Verificar Campos/input_senha'
+
+2018-01-24 17:53:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Verificar Campos/input_ok' is clicked on
+
+2018-01-24 17:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Verificar Campos/input_ok' is clicked on
+
+2018-01-24 17:53:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' located by 'By.xpath: //p[count(. | //*[text() = 'PAGAMENTO  PENDENTE']) = count(//*[text() = 'PAGAMENTO  PENDENTE'])]' not found)
+
+2018-01-24 17:54:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' located by 'By.xpath: //p[count(. | //*[text() = 'PAGAMENTO  PENDENTE']) = count(//*[text() = 'PAGAMENTO  PENDENTE'])]' not found)
+[[ATTACHMENT|C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Validacao Campos\\20180124_175316\\1516827244697.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-24 17:53:18 - [TEST_CASE][FAILED] - Test Cases/Verificar Titular Cartao: Test Cases/Verificar Titular Cartao FAILED because (of) Unable to click on object 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' located by 'By.xpath: //p[count(. | //*[text() = 'PAGAMENTO  PENDENTE']) = count(//*[text() = 'PAGAMENTO  PENDENTE'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verificar Email Rodape" classname="Test Cases/Verificar Email Rodape" status="PASSED">
+         <system-out><![CDATA[2018-01-24 17:54:04 - [TEST_CASE][PASSED] - Test Cases/Verificar Email Rodape: Test Cases/Verificar Email Rodape
+
+2018-01-24 17:54:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-24 17:54:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-24 17:54:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-24 17:54:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lojavirtual.sebraego.com.br/loja-teste/loja/' successfully
+
+2018-01-24 17:54:17 - [MESSAGE][PASSED] - Navigate to 'http://lojavirtual.sebraego.com.br/loja-teste/loja/' successfully
+
+2018-01-24 17:54:17 - [TEST_STEP][PASSED] - check: Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-24 17:54:17 - [MESSAGE][PASSED] - Object 'Object Repository/ValidacaoEmail/p_atendimentosebraego.com.br' is checked
+
+2018-01-24 17:54:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-24 17:54:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-24 17:53:17 - [TEST_SUITE][FAILED] - Validacao Campos: Test Cases/Verificar Titular Cartao FAILED because (of) Unable to click on object 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' located by 'By.xpath: //p[count(. | //*[text() = 'PAGAMENTO  PENDENTE']) = count(//*[text() = 'PAGAMENTO  PENDENTE'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-24 17:53:17 - [TEST_SUITE][FAILED] - Validacao Campos: Test Cases/Verificar Titular Cartao FAILED because (of) Unable to click on object 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Verificar Campos/p_PAGAMENTO  PENDENTE' located by 'By.xpath: //p[count(. | //*[text() = 'PAGAMENTO  PENDENTE']) = count(//*[text() = 'PAGAMENTO  PENDENTE'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

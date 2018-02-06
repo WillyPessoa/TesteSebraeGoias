@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Emails" time="17" tests="1" failures="0" errors="0">
+   <testsuite name="Emails" tests="1" failures="0" errors="0" time="17" timestamp="2018-01-26 14:34:34" hostname="behoh-tester - DESKTOP-9LJP0A4" id="Test Suites/Emails">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Emails\\20180126_143326"/>
+         <property name="logFiles" value="C:\\Users\\behoh-tester\\Katalon Studio\\Testes automatizados Producao Sebrae GO\\Reports\\Emails\\20180126_143326\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="behoh-tester - DESKTOP-9LJP0A4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.155.1.118"/>
+         <property name="sessionId" value="54a8be1668f99bf3b99a6da2a72e393f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ENTRE/RecuperacaoSenha" classname="Test Cases/ENTRE/RecuperacaoSenha" status="PASSED">
+         <system-out><![CDATA[2018-01-26 14:34:34 - [TEST_CASE][PASSED] - Test Cases/ENTRE/RecuperacaoSenha: Test Cases/ENTRE/RecuperacaoSenha
+
+2018-01-26 14:34:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-26 14:34:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-26 14:34:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:34:44 - [MESSAGE][PASSED] - Navigate to 'https://lojavirtualhomolog.sebraego.com.br/loja/' successfully
+
+2018-01-26 14:34:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-01-26 14:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Entre' is clicked on
+
+2018-01-26 14:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-01-26 14:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_No possuo ou esqueci minha s' is clicked on
+
+2018-01-26 14:34:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-26 14:34:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-26 14:34:49 - [TEST_STEP][PASSED] - setText: Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-01-26 14:34:49 - [MESSAGE][PASSED] - Text '10238621405' is set on object 'Object Repository/RecuperarSenha/input_emailRecuperacao'
+
+2018-01-26 14:34:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-01-26 14:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/RecuperarSenha/a_Receber email' is clicked on
+
+2018-01-26 14:34:49 - [TEST_STEP][PASSED] - check: Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-01-26 14:34:50 - [MESSAGE][PASSED] - Object 'Object Repository/RecuperarSenha/span_Um e-mail de confirmao fo' is checked
+
+2018-01-26 14:34:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-26 14:34:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-26 14:34:34 - [TEST_SUITE][PASSED] - Emails: Test Cases/ENTRE/RecuperacaoSenha]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
